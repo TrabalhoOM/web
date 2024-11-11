@@ -1,0 +1,157 @@
+html{
+<style>
+    body {
+font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f9f9f9;
+      }
+
+      header {
+          background-color: #f9f9f9;
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      header h1 {
+          font-size: 24px;
+          margin: 0;
+      }
+
+      nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+      }
+
+      nav ul li {
+          margin-right: 20px;
+      }
+
+      nav ul li a {
+          text-decoration: none;
+          color: #b5720f;
+          font-weight: bold;
+      }
+
+      .banner {
+          position: relative;
+          text-align: center;
+          color: white;
+      }
+
+      .banner img {
+          width: 100%;
+          height: auto;
+      }
+
+      .banner-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 48px;
+          background-color: rgba(0, 0, 0, 0.5);
+          padding: 20px;
+          border-radius: 10px;
+      }
+
+      .search-bar {
+          margin: 20px 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .search-bar input {
+          width: 40%;
+          padding: 10px;
+          border-radius: 20px;
+          border: 1px solid #ddd;
+          font-size: 18px;
+      }
+
+      .search-bar button {
+          padding: 10px 20px;
+          border: none;
+          background-color: #b5720f;
+          color: white;
+          border-radius: 20px;
+          cursor: pointer;
+          margin-left: -40px;
+      }
+
+      .access-list {
+          margin: 20px;
+      }
+
+      .access-list h2 {
+          font-size: 18px;
+          color: #b5720f;
+      }
+
+      .access-list ul {
+          list-style-type: none;
+          padding: 0;
+      }
+
+      .access-list ul li {
+          margin-bottom: 10px;
+      }
+
+      .access-list ul li a {
+          background-color: #f4f4f4;
+          padding: 10px;
+          border-radius: 10px;
+          display: block;
+          color: #555;
+          text-decoration: none;
+          font-size: 16px;
+          transition: background-color 0.3s ease;
+      }
+
+      .access-list ul li a:hover {
+          background-color: #ddd;
+      }
+
+      .club-cards {
+          display: flex;
+          justify-content: space-around;
+          margin: 20px;
+      }
+
+      .club-card {
+          background-color: white;
+          border-radius: 10px;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          width: 30%;
+          text-align: center;
+          padding: 20px;
+          transition: transform 0.3s ease;
+      }
+
+      .club-card:hover {
+          transform: translateY(-10px);
+      }
+
+      .club-card img {
+          width: 80%;
+          border-radius: 10px;
+      }
+
+      .club-card button {
+          background-color: #b5720f;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 20px;
+          margin-top: 10px;
+          cursor: pointer;
+      }
+    
+    </style>
+    }
